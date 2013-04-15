@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94A071A8171C4661004148BD /* Tennis_Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A071A6171C4661004148BD /* Tennis_Ball.png */; };
+		94A071A9171C4661004148BD /* tennisBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A071A7171C4661004148BD /* tennisBall.png */; };
 		94DD4DED17181E78005E0F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DEC17181E78005E0F37 /* UIKit.framework */; };
 		94DD4DEF17181E78005E0F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DEE17181E78005E0F37 /* Foundation.framework */; };
 		94DD4DF117181E78005E0F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DF017181E78005E0F37 /* CoreGraphics.framework */; };
@@ -18,11 +20,11 @@
 		94DD4E0317181E78005E0F37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0217181E78005E0F37 /* Default-568h@2x.png */; };
 		94DD4E0617181E78005E0F37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0417181E78005E0F37 /* MainStoryboard.storyboard */; };
 		94DD4E0917181E78005E0F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD4E0817181E78005E0F37 /* ViewController.m */; };
-		94DD4E1017181ED8005E0F37 /* Tennis_Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */; };
-		94DD4E1217185216005E0F37 /* tennisBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E1117185216005E0F37 /* tennisBall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94A071A6171C4661004148BD /* Tennis_Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis_Ball.png; sourceTree = "<group>"; };
+		94A071A7171C4661004148BD /* tennisBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennisBall.png; sourceTree = "<group>"; };
 		94DD4DE917181E78005E0F37 /* GameAccelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameAccelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD4DEC17181E78005E0F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94DD4DEE17181E78005E0F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		94DD4E0517181E78005E0F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		94DD4E0717181E78005E0F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94DD4E0817181E78005E0F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis_Ball.png; sourceTree = "<group>"; };
-		94DD4E1117185216005E0F37 /* tennisBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennisBall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,6 @@
 		94DD4DE017181E78005E0F37 = {
 			isa = PBXGroup;
 			children = (
-				94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */,
-				94DD4E1117185216005E0F37 /* tennisBall.png */,
 				94DD4DF217181E78005E0F37 /* GameAccelerometer */,
 				94DD4DEB17181E78005E0F37 /* Frameworks */,
 				94DD4DEA17181E78005E0F37 /* Products */,
@@ -102,6 +100,8 @@
 		94DD4DF317181E78005E0F37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94A071A6171C4661004148BD /* Tennis_Ball.png */,
+				94A071A7171C4661004148BD /* tennisBall.png */,
 				94DD4DF417181E78005E0F37 /* GameAccelerometer-Info.plist */,
 				94DD4DF517181E78005E0F37 /* InfoPlist.strings */,
 				94DD4DF817181E78005E0F37 /* main.m */,
@@ -170,8 +170,8 @@
 				94DD4E0117181E78005E0F37 /* Default@2x.png in Resources */,
 				94DD4E0317181E78005E0F37 /* Default-568h@2x.png in Resources */,
 				94DD4E0617181E78005E0F37 /* MainStoryboard.storyboard in Resources */,
-				94DD4E1017181ED8005E0F37 /* Tennis_Ball.png in Resources */,
-				94DD4E1217185216005E0F37 /* tennisBall.png in Resources */,
+				94A071A8171C4661004148BD /* Tennis_Ball.png in Resources */,
+				94A071A9171C4661004148BD /* tennisBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
