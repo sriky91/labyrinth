@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DD4DED17181E78005E0F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DEC17181E78005E0F37 /* UIKit.framework */; };
+		94DD4DEF17181E78005E0F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DEE17181E78005E0F37 /* Foundation.framework */; };
+		94DD4DF117181E78005E0F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4DF017181E78005E0F37 /* CoreGraphics.framework */; };
+		94DD4DF717181E78005E0F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4DF517181E78005E0F37 /* InfoPlist.strings */; };
+		94DD4DF917181E78005E0F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD4DF817181E78005E0F37 /* main.m */; };
+		94DD4DFD17181E78005E0F37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD4DFC17181E78005E0F37 /* AppDelegate.m */; };
+		94DD4DFF17181E78005E0F37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4DFE17181E78005E0F37 /* Default.png */; };
+		94DD4E0117181E78005E0F37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0017181E78005E0F37 /* Default@2x.png */; };
+		94DD4E0317181E78005E0F37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0217181E78005E0F37 /* Default-568h@2x.png */; };
+		94DD4E0617181E78005E0F37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0417181E78005E0F37 /* MainStoryboard.storyboard */; };
+		94DD4E0917181E78005E0F37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD4E0817181E78005E0F37 /* ViewController.m */; };
+		94DD4E1017181ED8005E0F37 /* Tennis_Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */; };
+		94DD4E1217185216005E0F37 /* tennisBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DD4E1117185216005E0F37 /* tennisBall.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94DD4DE917181E78005E0F37 /* GameAccelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameAccelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD4DEC17181E78005E0F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94DD4DEE17181E78005E0F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94DD4DF017181E78005E0F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94DD4DF417181E78005E0F37 /* GameAccelerometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameAccelerometer-Info.plist"; sourceTree = "<group>"; };
+		94DD4DF617181E78005E0F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94DD4DF817181E78005E0F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94DD4DFA17181E78005E0F37 /* GameAccelerometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameAccelerometer-Prefix.pch"; sourceTree = "<group>"; };
+		94DD4DFB17181E78005E0F37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94DD4DFC17181E78005E0F37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94DD4DFE17181E78005E0F37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94DD4E0017181E78005E0F37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		94DD4E0217181E78005E0F37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		94DD4E0517181E78005E0F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		94DD4E0717181E78005E0F37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94DD4E0817181E78005E0F37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis_Ball.png; sourceTree = "<group>"; };
+		94DD4E1117185216005E0F37 /* tennisBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennisBall.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DD4DE617181E78005E0F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD4DED17181E78005E0F37 /* UIKit.framework in Frameworks */,
+				94DD4DEF17181E78005E0F37 /* Foundation.framework in Frameworks */,
+				94DD4DF117181E78005E0F37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DD4DE017181E78005E0F37 = {
+			isa = PBXGroup;
+			children = (
+				94DD4E0F17181ED8005E0F37 /* Tennis_Ball.png */,
+				94DD4E1117185216005E0F37 /* tennisBall.png */,
+				94DD4DF217181E78005E0F37 /* GameAccelerometer */,
+				94DD4DEB17181E78005E0F37 /* Frameworks */,
+				94DD4DEA17181E78005E0F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94DD4DEA17181E78005E0F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DD4DE917181E78005E0F37 /* GameAccelerometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DD4DEB17181E78005E0F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DD4DEC17181E78005E0F37 /* UIKit.framework */,
+				94DD4DEE17181E78005E0F37 /* Foundation.framework */,
+				94DD4DF017181E78005E0F37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94DD4DF217181E78005E0F37 /* GameAccelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				94DD4DFB17181E78005E0F37 /* AppDelegate.h */,
+				94DD4DFC17181E78005E0F37 /* AppDelegate.m */,
+				94DD4E0417181E78005E0F37 /* MainStoryboard.storyboard */,
+				94DD4E0717181E78005E0F37 /* ViewController.h */,
+				94DD4E0817181E78005E0F37 /* ViewController.m */,
+				94DD4DF317181E78005E0F37 /* Supporting Files */,
+			);
+			path = GameAccelerometer;
+			sourceTree = "<group>";
+		};
+		94DD4DF317181E78005E0F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94DD4DF417181E78005E0F37 /* GameAccelerometer-Info.plist */,
+				94DD4DF517181E78005E0F37 /* InfoPlist.strings */,
+				94DD4DF817181E78005E0F37 /* main.m */,
+				94DD4DFA17181E78005E0F37 /* GameAccelerometer-Prefix.pch */,
+				94DD4DFE17181E78005E0F37 /* Default.png */,
+				94DD4E0017181E78005E0F37 /* Default@2x.png */,
+				94DD4E0217181E78005E0F37 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DD4DE817181E78005E0F37 /* GameAccelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD4E0C17181E78005E0F37 /* Build configuration list for PBXNativeTarget "GameAccelerometer" */;
+			buildPhases = (
+				94DD4DE517181E78005E0F37 /* Sources */,
+				94DD4DE617181E78005E0F37 /* Frameworks */,
+				94DD4DE717181E78005E0F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameAccelerometer;
+			productName = GameAccelerometer;
+			productReference = 94DD4DE917181E78005E0F37 /* GameAccelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DD4DE117181E78005E0F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Riccardo Salmaso";
+			};
+			buildConfigurationList = 94DD4DE417181E78005E0F37 /* Build configuration list for PBXProject "GameAccelerometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 94DD4DE017181E78005E0F37;
+			productRefGroup = 94DD4DEA17181E78005E0F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DD4DE817181E78005E0F37 /* GameAccelerometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DD4DE717181E78005E0F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD4DF717181E78005E0F37 /* InfoPlist.strings in Resources */,
+				94DD4DFF17181E78005E0F37 /* Default.png in Resources */,
+				94DD4E0117181E78005E0F37 /* Default@2x.png in Resources */,
+				94DD4E0317181E78005E0F37 /* Default-568h@2x.png in Resources */,
+				94DD4E0617181E78005E0F37 /* MainStoryboard.storyboard in Resources */,
+				94DD4E1017181ED8005E0F37 /* Tennis_Ball.png in Resources */,
+				94DD4E1217185216005E0F37 /* tennisBall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DD4DE517181E78005E0F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD4DF917181E78005E0F37 /* main.m in Sources */,
+				94DD4DFD17181E78005E0F37 /* AppDelegate.m in Sources */,
+				94DD4E0917181E78005E0F37 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94DD4DF517181E78005E0F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD4DF617181E78005E0F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94DD4E0417181E78005E0F37 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD4E0517181E78005E0F37 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DD4E0A17181E78005E0F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94DD4E0B17181E78005E0F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DD4E0D17181E78005E0F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAccelerometer/GameAccelerometer-Prefix.pch";
+				INFOPLIST_FILE = "GameAccelerometer/GameAccelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94DD4E0E17181E78005E0F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAccelerometer/GameAccelerometer-Prefix.pch";
+				INFOPLIST_FILE = "GameAccelerometer/GameAccelerometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DD4DE417181E78005E0F37 /* Build configuration list for PBXProject "GameAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD4E0A17181E78005E0F37 /* Debug */,
+				94DD4E0B17181E78005E0F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DD4E0C17181E78005E0F37 /* Build configuration list for PBXNativeTarget "GameAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD4E0D17181E78005E0F37 /* Debug */,
+				94DD4E0E17181E78005E0F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DD4DE117181E78005E0F37 /* Project object */;
+}
