@@ -34,6 +34,7 @@
                             <constraint firstAttribute="bottom" secondItem="9e3-Wg-fEe" secondAttribute="bottom" constant="100" id="4Y4-QA-aNX"/>
                             <constraint firstItem="yC3-Vl-opv" firstAttribute="leading" secondItem="9e3-Wg-fEe" secondAttribute="leading" type="default" id="6F1-pR-Amg"/>
                             <constraint firstAttribute="trailing" secondItem="9e3-Wg-fEe" secondAttribute="trailing" constant="256" id="A39-hH-Un9"/>
+                            <constraint firstItem="XQf-Ul-pjH" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="92" id="DIc-dV-F4I"/>
                             <constraint firstItem="yC3-Vl-opv" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="EpA-C3-Tkl"/>
                             <constraint firstItem="AdQ-Aq-kr7" firstAttribute="top" secondItem="XQf-Ul-pjH" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HMa-Ns-Obx"/>
                             <constraint firstAttribute="trailing" secondItem="AdQ-Aq-kr7" secondAttribute="trailing" constant="63" id="MK4-Hi-rnF"/>
@@ -43,7 +44,6 @@
                             <constraint firstAttribute="bottom" secondItem="AdQ-Aq-kr7" secondAttribute="bottom" constant="391" id="X4d-6f-wGh"/>
                             <constraint firstItem="yC3-Vl-opv" firstAttribute="top" secondItem="9e3-Wg-fEe" secondAttribute="top" type="default" id="YYt-ra-AXU"/>
                             <constraint firstItem="AdQ-Aq-kr7" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="gHH-k6-M6h"/>
-                            <constraint firstItem="XQf-Ul-pjH" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="kex-Ba-vT9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -59,18 +59,6 @@
     <resources>
         <image name="tennisBall.png" width="1799" height="1803"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ball" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="percorso" candidateClass="UIView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

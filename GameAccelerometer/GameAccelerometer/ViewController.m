@@ -53,7 +53,7 @@ int yBorder;
     float yHold=ball.center.y;
     ball.center=CGPointMake(ball.center.x+ delta.x, ball.center.y - delta.y);
     
-    
+    //sopra prima linea
     if(delta.y<0 && yHold+yBorder<=70){
         
         NSLog(@"entrato: %f",delta.y);
@@ -62,16 +62,17 @@ int yBorder;
             ball.center= CGPointMake(ball.center.x,70-yBorder);
         }
     }
-    
-    if(delta.y>0 && yHold-yBorder>70){
+    //sotto prima linea
+    if(delta.y>0 && yHold-yBorder>=70){
         
         NSLog(@"uauuuu: %f",delta.y);
         
-        if(ball.center.y<=70+yBorder && ball.center.x <= (257+xBorder)){
+        if(ball.center.y<=70+yBorder && ball.center.x <= (257-xBorder)){
+            NSLog(@"ufffaa: %f",delta.y);
             ball.center= CGPointMake(ball.center.x,70+yBorder);
         }
     }
-    
+    //sopra seconda linea
     if(delta.y<0 && yHold+yBorder>70 && yHold+yBorder<=130){
         
         NSLog(@"entrato: %f",delta.y);
@@ -80,6 +81,17 @@ int yBorder;
             ball.center= CGPointMake(ball.center.x,130-yBorder);
         }
     }
+    
+    //sotto seconda linea
+    if(delta.y<0 && yHold+yBorder<70 && yHold+yBorder>=130){
+        
+        NSLog(@"entrato: %f",delta.y);
+        
+        if(ball.center.y<=130-yBorder && ball.center.x >= ((320-257)-xBorder)){
+            ball.center= CGPointMake(ball.center.x,130+yBorder);
+        }
+    }
+    
     /*
     if(delta.y>0 && yHold+yBorder>70 && yHold+yBorder<=130){
         
